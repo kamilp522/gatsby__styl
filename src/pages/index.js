@@ -2,11 +2,13 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import HeroSection from "../components/HomeSections/HeroSection"
+import "./index.css"
 
 const Home = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>text h1</h1>
+    <HeroSection />
   </Layout>
 )
 
